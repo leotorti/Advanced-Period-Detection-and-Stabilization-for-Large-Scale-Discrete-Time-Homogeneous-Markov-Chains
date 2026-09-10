@@ -8,7 +8,7 @@ n = size(P,1);
 M = eye(n);
 d = 0; %initialize period
 
-if (i > n)
+if (i > n | i < 1)
     error('invalid index i')
 end
 

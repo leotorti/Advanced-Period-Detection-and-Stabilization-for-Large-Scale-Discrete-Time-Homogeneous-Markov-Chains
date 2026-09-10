@@ -81,7 +81,7 @@ int PeriodFinder_2n_1(const std::vector<std::vector<double>>& P, size_t i) {
 
     int d = 0; // Initialize period
 
-    for (size_t k = 1; k <= 2 * n; ++k) {
+    for (size_t k = 1; k < 2*n; ++k) {
         if (d == 1) {
             break;
         }

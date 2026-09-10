@@ -27,13 +27,11 @@ for j = 1:m
     end
 end
 
-n_i = sum(H_i); %number of elements in the class
-
 % extract sub-matrix P_i sub transition matrix of H_i and all its powers 
 indices = find(H_i);
-R_i = cell(1,n_i);
+R_i = cell(1,n);
 
-for j = 1:n_i
+for j = 1:n
     if (d==1)
         break
     end
@@ -41,7 +39,7 @@ for j = 1:n_i
 R_i{j} = R{j}(indices,indices); % extract (P_i)^j
 
 % update period
-    if (diag(R_i{j}) ~= 0)
+    if (any(diag(R_i{j})~=0))
         d = gcd(d,j);
     end
 
