@@ -2,7 +2,7 @@
 
 BSc thesis project by **Leonardo Torti** and **Cosimo Raugei**, titled **"Advanced Period Detection and Stabilization for Large-Scale Discrete-Time Homogeneous Markov Chains."**
 
-**[Read the thesis (PDF)](Tesi_Triennale_Torti_Raugei.pdf)** · [Browse the algorithms](AlgorithmsRepository.md)
+**[Read the thesis (PDF)](Tesi_Triennale_Torti_Raugei.pdf)** · [Browse the algorithms](algorithms/AlgorithmsRepository.md)
 
 ## Introduction
 
@@ -13,7 +13,6 @@ This project directly addresses this theorical and computational problem for lar
 ## Techniques Used
 
 The techniques and mathematics applied in this work come from areas of computational spectral analysis, graph theory and  number theory. 
-
 
 
 
