@@ -12,11 +12,9 @@ This project directly addresses this theorical and computational problem for lar
 
 ## Techniques Used
 
-The techniques and mathematics applied in this work come from advanced areas of computational spectral analysis, graph theory and  number theory. 
+The techniques and mathematics applied in this work come from areas of computational spectral analysis, graph theory and  number theory. 
 
-## Matrix Dataset
 
-To support numerical simulations and test additional hypotheses, this repository includes a rich dataset of matrices representing various types of Markov chains with complex transition dynamics. This dataset will be enriched as the research continues. (temporary link : 
 
 
 
